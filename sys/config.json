@@ -1,0 +1,214 @@
+{
+  "board": "duet3_mini5plus_ethernet",
+  "expansion_boards": [],
+  "firmware": 3.3,
+  "standalone": true,
+  "nvram": false,
+  "auto_save": {
+    "enabled": false,
+    "save_threshold": 10,
+    "resume_threshold": 11,
+    "gcodes_to_run": "M913 X0 Y0 G91 M83 G1 Z3 E-5 F1000"
+  },
+  "display": {
+    "type": 0,
+    "encoder_steps": 4,
+    "spi_frequency": 2000000,
+    "menus": [
+      {
+        "name": "main",
+        "value": ""
+      }
+    ],
+    "images": []
+  },
+  "panelDue": true,
+  "geometry": {
+    "type": "cartesian",
+    "mins": [
+      0,
+      0,
+      0
+    ],
+    "maxes": [
+      1220,
+      900,
+      42
+    ],
+    "delta_radius": 105.6,
+    "homed_height": 250,
+    "low_dive_height": false,
+    "max_carriage_travel": 260,
+    "print_radius": 85,
+    "rod_length": 215,
+    "z_min": 0
+  },
+  "drives": [
+    {
+      "direction": 1,
+      "microstepping": 16,
+      "microstepping_interpolation": true,
+      "steps_per_mm": 69.48072885,
+      "instant_dv": 12,
+      "max_speed": 400,
+      "acceleration": 1600,
+      "current": 800,
+      "driver": 0,
+      "driver_v3": "0.5",
+      "endstop_pin": "^io1.in",
+      "endstop_type": 0,
+      "endstop_location": 2
+    },
+    {
+      "direction": 1,
+      "microstepping": 16,
+      "microstepping_interpolation": true,
+      "steps_per_mm": 69.48072885,
+      "instant_dv": 8,
+      "max_speed": 233.33333333333334,
+      "acceleration": 800,
+      "current": 800,
+      "driver": 1,
+      "driver_v3": "0.6",
+      "endstop_pin": "^io2.in",
+      "endstop_type": 0,
+      "endstop_location": 2
+    },
+    {
+      "direction": 0,
+      "microstepping": 16,
+      "microstepping_interpolation": true,
+      "steps_per_mm": 1000,
+      "instant_dv": 1,
+      "max_speed": 6,
+      "acceleration": 20,
+      "current": 800,
+      "driver": 2,
+      "driver_v3": "0.0",
+      "endstop_pin": "!^io5.in",
+      "endstop": null,
+      "endstop_type": 1,
+      "endstop_location": 2
+    }
+  ],
+  "idle": {
+    "used": true,
+    "factor": 30,
+    "timeout": 30
+  },
+  "homing_speed_fast": 80,
+  "homing_speed_slow": 6,
+  "travel_speed": 100,
+  "z_dive_height": 10,
+  "slow_homing": false,
+  "probe": {
+    "type": "bltouch",
+    "recovery_time": 0.4,
+    "trigger_height": 2.5,
+    "trigger_value": 500,
+    "x_offset": 0,
+    "y_offset": 0,
+    "speed": 2,
+    "deploy": true,
+    "points": [],
+    "pwm_channel": 3,
+    "pwm_inverted": true,
+    "pwm_pin": "io3.out",
+    "input_pin": "io3.in",
+    "modulation_pin": "io4.out"
+  },
+  "bed_is_nozzle": false,
+  "bed": {
+    "present": false,
+    "use_pid": false,
+    "heater": 0
+  },
+  "chamber": {
+    "present": false,
+    "use_pid": false,
+    "heater": 2
+  },
+  "heaters": [],
+  "num_nozzles": 0,
+  "toolchange_wait_for_temperatures": true,
+  "generate_t_code": false,
+  "tools": [],
+  "compensation_x_offset": 15,
+  "compensation_y_offset": 15,
+  "peripheral_points": 3,
+  "halfway_points": 3,
+  "calibration_factors": 6,
+  "probe_radius": 85,
+  "mesh": {
+    "x_min": 15,
+    "x_max": 215,
+    "y_min": 15,
+    "y_max": 195,
+    "radius": 85,
+    "spacing": 20
+  },
+  "home_first": false,
+  "orthogonal": {
+    "compensation": false,
+    "height": 50,
+    "deviations": [
+      0,
+      0,
+      0
+    ]
+  },
+  "network": {
+    "enabled": true,
+    "mac_address": "",
+    "name": "LaserKutter",
+    "password": "foobar",
+    "ssid": "",
+    "ssid_password": "",
+    "dhcp": true,
+    "ip": "192.168.1.20",
+    "netmask": "255.255.255.0",
+    "gateway": "192.168.1.254",
+    "protocols": {
+      "http": true,
+      "ftp": false,
+      "telnet": false
+    }
+  },
+  "fans": [
+    {
+      "output_pin": "out1",
+      "name": "Abluft",
+      "value": 0,
+      "inverted": false,
+      "frequency": 0,
+      "thermostatic": false,
+      "heaters": [],
+      "trigger_temperature": 45
+    },
+    {
+      "output_pin": "out2",
+      "name": "Luftpumpe",
+      "value": 0,
+      "inverted": false,
+      "frequency": 0,
+      "thermostatic": false,
+      "heaters": [
+        1
+      ],
+      "trigger_temperature": 45
+    },
+    {
+      "output_pin": "out5",
+      "name": "Sauerstoff",
+      "value": 0,
+      "inverted": false,
+      "frequency": 0,
+      "thermostatic": false,
+      "heaters": [
+        1
+      ],
+      "trigger_temperature": 45
+    }
+  ],
+  "custom_settings": "; Laser\nM452 C\"out6\" R255 S1 F20000      ; Enable Laser mode, on out6, with max intensity being 255, and a PWM frequency of 20000Hz, sticky mode\n\n; Timings\nM569 P0.5 T5:5:10:0              ; 5us minimum step pulse, 5us minimum step interval, 10us DIR setup time and no hold time\nM569 P0.6 T5:5:10:0              ; 5us minimum step pulse, 5us minimum step interval, 10us DIR setup time and no hold time"
+}
