@@ -34,6 +34,8 @@ M208 X0 Y0 Z0 S1                         ; set axis minima
 M208 X1220 Y900 Z42 S0                   ; set axis maxima
 
 ; Endstops
+M574 X2 S1 P"^io1.in"                    ; configure switch-type (e.g. microswitch) endstop for high end on Y via pin ^io1.in
+M574 Y2 S1 P"^io2.in"                    ; configure switch-type (e.g. microswitch) endstop for high end on Y via pin ^io2.in
 M574 Z2 S1 P"!^io5.in"                   ; configure switch-type (e.g. microswitch) endstop for high end on Z via pin !^io5.in
 
 ; Z-Probe
