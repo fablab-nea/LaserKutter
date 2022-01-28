@@ -10,7 +10,7 @@ M83                                      ; ...but relative extruder moves
 M550 P"LaserKutter"                      ; set printer name
 
 ; Network
-M551 P"foobar"                           ; set password
+M551 P""                                 ; don't use a password
 M552 P0.0.0.0 S1                         ; enable network and acquire dynamic address via DHCP
 M586 P0 S1                               ; enable HTTP
 M586 P1 S0                               ; disable FTP
