@@ -61,6 +61,9 @@ M106 P2 C"Sauerstoff" S0 H-1             ; set fan 2 name and value. Thermostati
 ; Laser
 M452 C"out6" R255 S1 F20000              ; Enable Laser mode, on out6, with max intensity being 255, and a PWM frequency of 20000Hz, sticky mode
 
+M950 J0 C"^io6.in"                       ; Input 0 uses io6.in pin, pullup enabled
+M581 T15 P0 S0 R2                        ; Input 0 invokes trigger #15, only while not processing G-code from SD card
+
 ; Timings
 M569 P0.5 T5:5:10:0                      ; 5us minimum step pulse, 5us minimum step interval, 10us DIR setup time and no hold time
 M569 P0.6 T5:5:10:0                      ; 5us minimum step pulse, 5us minimum step interval, 10us DIR setup time and no hold time
