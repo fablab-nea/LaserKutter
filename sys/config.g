@@ -44,6 +44,10 @@ M558 P9 C"io3.in+io4.out" H10 F120 T6000 ; set Z probe type to bltouch and the d
 G31 P500 X0 Y0 Z2.5                      ; set Z probe trigger value, offset and trigger height
 M557 X15:215 Y15:195 S20                 ; define mesh grid
 
+; Accelerometer
+; default SPI clock: 2MHz = 2000000
+;M955 P0 C"io3.out+io3.in" Q1000000
+
 ; Heaters
 M140 H-1                                 ; disable heated bed (overrides default heater mapping)
 
