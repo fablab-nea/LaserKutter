@@ -20,7 +20,11 @@ for directory, _, files in chain.from_iterable(
         pass
     for file in files:
         path = os.path.join(directory, file)
-        urllib.request.urlretrieve(
-            f"{base_url}/rr_download?" + urlencode({'name': f"0:/{path}"}),
-            filename=path
-        )
+        try:
+            urllib.request.urlretrieve(
+                f"{base_url}/rr_download?" + urlencode({'name': f"0:/{path}"}),
+                filename=path
+            )
+        except urllib.error.HTTPError:
+            print(f"Failed to download {path}")
+            raise
