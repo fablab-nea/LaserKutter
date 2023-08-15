@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 793.70077 1122.5197"
+   width="210mm"
+   height="297mm"
+   version="1.1"
+   id="svg465"
+   sodipodi:docname="FrontPanel.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview467"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.0721378"
+     inkscape:cx="640.30949"
+     inkscape:cy="952.76933"
+     inkscape:window-width="1920"
+     inkscape:window-height="994"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g463"
+     showguides="true"
+     inkscape:document-units="mm" />
+  <desc
+     id="desc395">FrontPanel.dxf - scale = 1.000000, origin = (0.000000, 0.000000), method = manual</desc>
+  <defs
+     id="defs409">
+    <marker
+       id="DistanceX"
+       orient="auto"
+       refX="0"
+       refY="0"
+       style="overflow:visible">
+      <path
+         d="M 3,-3 -3,3 M 0,-5 V 5"
+         style="stroke:#000000;stroke-width:0.5"
+         id="path397" />
+    </marker>
+    <pattern
+       id="Hatch"
+       patternUnits="userSpaceOnUse"
+       width="8"
+       height="8"
+       x="0"
+       y="0">
+      <path
+         d="M8 4 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path400" />
+      <path
+         d="M6 2 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path402" />
+      <path
+         d="M4 0 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path404" />
+    </pattern>
+    <symbol
+       id="*MODEL_SPACE" />
+    <symbol
+       id="*PAPER_SPACE" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="0"
+     id="g411" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="none"
+     id="g413" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Sketch"
+     id="g463">
+    <path
+       style="fill:none;stroke:#ff0000"
+       d="M 761.858,1018.27 H 81.5448 V 538.265 H 761.858 Z"
+       id="path417"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       d="m 690.04724,651.65102 a 41.574803,41.574803 0 0 0 -83.1496,0 41.574803,41.574803 0 0 0 83.1496,0 z"
+       style="fill:none;stroke:#ff0000"
+       id="path423" />
+    <path
+       d="m 690.04724,904.88088 a 41.574803,41.574803 0 0 0 -83.1496,0 41.574803,41.574803 0 0 0 83.1496,0 z"
+       style="fill:none;stroke:#ff0000"
+       id="path425" />
+    <path
+       d="m 395.24561,874.64466 a 94.48819,94.48819 0 0 0 -188.97638,0 94.48819,94.48819 0 0 0 188.97638,0 z"
+       style="fill:none;stroke:#ff0000"
+       id="path427" />
+    <path
+       d="m 404.69291,919.99899 a 6.614173,6.614173 0 0 0 -13.22834,0"
+       style="fill:none;stroke:#ff0000"
+       id="path429" />
+    <path
+       style="fill:none;stroke:#ff0000"
+       d="m 391.465,919.999 v 18.898"
+       id="path431" />
+    <path
+       d="m 391.46457,938.89663 a 6.614173,6.614173 0 0 0 13.22834,0"
+       style="fill:none;stroke:#ff0000"
+       id="path433" />
+    <path
+       style="fill:none;stroke:#ff0000"
+       d="m 404.693,919.999 v 18.898"
+       id="path435" />
+    <path
+       d="m 210.04876,919.99899 a 6.614175,6.614175 0 0 0 -13.22835,0"
+       style="fill:none;stroke:#ff0000"
+       id="path437" />
+    <path
+       style="fill:none;stroke:#ff0000"
+       d="M 196.82,938.897 V 919.999"
+       id="path439" />
+    <path
+       d="m 196.82041,938.89663 a 6.614175,6.614175 0 0 0 13.22835,0"
+       style="fill:none;stroke:#ff0000"
+       id="path441" />
+    <path
+       style="fill:none;stroke:#ff0000"
+       d="M 210.049,938.897 V 919.999"
+       id="path443" />
+    <path
+       d="m 342.33222,651.65102 a 41.574805,41.574805 0 0 0 -83.14961,0 41.574805,41.574805 0 0 0 83.14961,0 z"
+       style="fill:none;stroke:#ff0000"
+       id="path445" />
+    <path
+       d="m 125.95427,576.06047 a 6.614175,6.614175 0 0 0 -13.22835,0 6.614175,6.614175 0 0 0 13.22835,0 z"
+       style="fill:none;stroke:#ff0000"
+       id="path447" />
+    <path
+       d="m 730.67716,980.47143 a 6.614173,6.614173 0 0 0 -13.22834,0 6.614173,6.614173 0 0 0 13.22834,0 z"
+       style="fill:none;stroke:#ff0000"
+       id="path449" />
+    <path
+       d="m 730.67716,576.06047 a 6.614173,6.614173 0 0 0 -13.22834,0 6.614173,6.614173 0 0 0 13.22834,0 z"
+       style="fill:none;stroke:#ff0000"
+       id="path451" />
+    <path
+       d="m 125.95427,980.47143 a 6.614175,6.614175 0 0 0 -13.22835,0 6.614175,6.614175 0 0 0 13.22835,0 z"
+       style="fill:none;stroke:#ff0000"
+       id="path453" />
+    <path
+       style="fill:none;stroke:#ff0000"
+       d="m 425.48,646.738 v 9.826 h 98.268 v -9.826 z"
+       id="path459"
+       sodipodi:nodetypes="ccccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:32px;fill:none;stroke:#000000"
+       x="301.07642"
+       y="750.32623"
+       id="text843"><tspan
+         sodipodi:role="line"
+         id="tspan841"
+         x="301.07642"
+         y="750.32623"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:32px;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';text-align:center;text-anchor:middle;fill:#000000;stroke:none">Abluft aus</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;fill:none;stroke:#000000"
+       x="650.43079"
+       y="735.11053"
+       id="text843-3"><tspan
+         sodipodi:role="line"
+         id="tspan841-6"
+         x="650.43079"
+         y="735.11053"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:32px;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';text-align:center;text-anchor:middle;fill:#000000;stroke:none">Tisch ↑</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:32px;fill:none;stroke:#000000"
+       x="650.18597"
+       y="987.82489"
+       id="text843-3-7"><tspan
+         sodipodi:role="line"
+         id="tspan841-6-5"
+         x="650.18597"
+         y="987.82489"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:32px;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';text-align:center;text-anchor:middle;fill:#000000;stroke:none">Tisch ↓</tspan></text>
+    <g
+       id="panel6583"
+       transform="translate(81.05781,202.86993)"
+       style="stroke:#000080">
+      <path
+         style="fill:none;stroke:#000080;stroke-width:1"
+         d="m 133.712,175.959 h 12.836 v 0 h 10.583 v 0 h 12.648 v 0 h 10.582 v 0 h 12.648 v 0 h 10.583 v 0 h 12.647 v 0 h 10.583 v 0 h 12.647 v 0 h 10.583 v 0 h 12.836"
+         id="path2913" />
+      <path
+         style="fill:none;stroke:#000080;stroke-width:1"
+         d="m 262.888,175.959 v 5.152 h -7.559 v 9.827 h 7.559 v 12.899 h -7.559 v 9.827 h 7.559 v 12.899 h -7.559 v 9.827 h 7.559 v 12.9 h -7.559 v 9.826 h 7.559 v 12.9 h -7.559 v 9.827 h 7.559 v 5.151"
+         id="path2915" />
+      <path
+         style="fill:none;stroke:#000080;stroke-width:1"
+         d="m 262.888,286.994 h -12.836 v 0 h -10.583 v 0 h -12.647 v 0 h -10.583 v 0 h -12.647 v 0 h -10.583 v 0 h -12.648 v 0 h -10.582 v 0 h -12.648 v 0 h -10.583 v 0 h -12.836"
+         id="path2917" />
+      <path
+         style="fill:none;stroke:#000080;stroke-width:1"
+         d="m 133.712,286.994 v -5.151 h 7.559 v -9.827 h -7.559 v -12.9 h 7.559 v -9.826 h -7.559 v -12.9 h 7.559 v -9.827 h -7.559 v -12.899 h 7.559 v -9.827 h -7.559 v -12.899 h 7.559 v -9.827 h -7.559 v -5.152"
+         id="path2919" />
+    </g>
+    <g
+       id="panel6676"
+       transform="translate(335.64392,262.75595)"
+       style="stroke:#000080">
+      <path
+         style="fill:none;stroke:#000080;stroke-width:1"
+         d="m 11.3386,141.271 h 4.7735 v -7.559 h 10.5827 v 7.559 h 12.1436 v -7.559 H 49.421 v 7.559 h 12.1436 v -7.559 h 10.5827 v 7.559 h 12.1436 v -7.559 h 10.5827 v 7.559 h 12.1434 v -7.559 H 117.6 v 7.559 h 4.773"
+         id="path2922" />
+      <path
+         style="fill:none;stroke:#000080;stroke-width:1"
+         d="m 122.373,141.271 v 2.604 0 10.583 0 2.604"
+         id="path2924" />
+      <path
+         style="fill:none;stroke:#000080;stroke-width:1"
+         d="M 122.373,157.062 H 117.6 v 7.559 h -10.583 v -7.559 H 94.8736 v 7.559 H 84.2909 v -7.559 H 72.1473 v 7.559 H 61.5646 v -7.559 H 49.421 v 7.559 H 38.8384 v -7.559 H 26.6948 v 7.559 H 16.1121 v -7.559 h -4.7735"
+         id="path2926" />
+      <path
+         style="fill:none;stroke:#000080;stroke-width:1"
+         d="m 11.3386,157.062 v -2.604 0 -10.583 0 -2.604"
+         id="path2928" />
+    </g>
+    <g
+       id="panel6990"
+       transform="translate(72.75522,301.13443)"
+       style="stroke:#000080">
+      <path
+         style="fill:none;stroke:#000080;stroke-width:1"
+         d="m 274.227,141.271 h 4.774 v -7.559 h 10.582 v 7.559 h 12.144 v -7.559 h 10.583 v 7.559 h 12.143 v -7.559 h 10.583 v 7.559 h 12.143 v -7.559 h 10.583 v 7.559 h 12.144 v -7.559 h 10.582 v 7.559 h 4.774"
+         id="path2931" />
+      <path
+         style="fill:none;stroke:#000080;stroke-width:1"
+         d="m 385.262,141.271 v 2.604 0 10.583 0 2.604"
+         id="path2933" />
+      <path
+         style="fill:none;stroke:#000080;stroke-width:1"
+         d="m 385.262,157.062 h -4.774 v 7.559 h -10.582 v -7.559 h -12.144 v 7.559 h -10.583 v -7.559 h -12.143 v 7.559 h -10.583 v -7.559 H 312.31 v 7.559 h -10.583 v -7.559 h -12.144 v 7.559 h -10.582 v -7.559 h -4.774"
+         id="path2935" />
+      <path
+         style="fill:none;stroke:#000080;stroke-width:1"
+         d="m 274.227,157.062 v -2.604 0 -10.583 0 -2.604"
+         id="path2937" />
+    </g>
+    <g
+       id="panel8001"
+       transform="translate(-52.1672,367.49063)"
+       style="stroke:#000080">
+      <path
+         style="fill:none;stroke:#000080;stroke-width:1"
+         d="m 133.712,11.3386 h 12.836 v 0 h 10.583 v 0 h 12.648 v 0 h 10.582 v 0 h 12.648 v 0 h 10.583 v 0 h 12.647 v 0 h 10.583 v 0 h 12.647 v 0 h 10.583 v 0 h 12.836"
+         id="path2940" />
+      <path
+         style="fill:none;stroke:#000080;stroke-width:1"
+         d="M 262.888,11.3386 V 16.49 h -7.559 v 9.8268 h 7.559 v 12.8995 h -7.559 v 9.8268 h 7.559 v 12.8995 h -7.559 v 9.8268 h 7.559 v 12.8995 h -7.559 v 9.8267 h 7.559 v 12.8994 h -7.559 v 9.827 h 7.559 v 5.151"
+         id="path2942" />
+      <path
+         style="fill:none;stroke:#000080;stroke-width:1"
+         d="m 262.888,122.373 h -12.836 v 0 h -10.583 v 0 h -12.647 v 0 h -10.583 v 0 h -12.647 v 0 h -10.583 v 0 h -12.648 v 0 h -10.582 v 0 h -12.648 v 0 h -10.583 v 0 h -12.836"
+         id="path2944" />
+      <path
+         style="fill:none;stroke:#000080;stroke-width:1"
+         d="m 133.712,122.373 v -5.151 h 7.559 v -9.827 h -7.559 V 94.4956 h 7.559 v -9.8267 h -7.559 V 71.7694 h 7.559 v -9.8268 h -7.559 V 49.0431 h 7.559 v -9.8268 h -7.559 V 26.3168 h 7.559 V 16.49 h -7.559 v -5.1514"
+         id="path2946" />
+    </g>
+  </g>
+</svg>
