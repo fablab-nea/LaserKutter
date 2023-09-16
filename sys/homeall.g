@@ -10,9 +10,7 @@ G1 H1 X1225 Y905 F360  ; move slowly to X and Y axis endstops once more (second 
 G90                    ; absolute positioning
 G92 Z42                ; set Z position to axis maximum (you may want to adjust this)
 
-; Uncomment the following lines to lift Z after probing
-;G91                   ; relative positioning
-;G1 Z10 F100           ; lift Z relative to current position
-;G90                   ; absolute positioning
-
-
+; Set job origin (slot 2)
+G92 X0 Y0
+G60 S2
+G92 X1220 Y900
