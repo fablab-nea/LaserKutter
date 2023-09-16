@@ -5,7 +5,7 @@
 G91                    ; relative positioning
 M98 P"homez.g"
 G1 H1 X1225 Y905 F4800 ; move quickly to X and Y axis endstops and stop there (first pass)
-G1 H2 X-5 Y-5 F6000    ; go back a few mm
+G1 H2 X-2 Y-2 F6000    ; go back a few mm
 G1 H1 X1225 Y905 F360  ; move slowly to X and Y axis endstops once more (second pass)
 G90                    ; absolute positioning
 G92 Z42                ; set Z position to axis maximum (you may want to adjust this)
