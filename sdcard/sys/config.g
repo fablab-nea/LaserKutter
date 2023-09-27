@@ -19,7 +19,7 @@ M586 P2 S0                               ; disable Telnet
 ; Drives
 M569 P0.5 S1                             ; physical drive 0.5 goes forwards
 M569 P0.6 S1                             ; physical drive 0.6 goes forwards
-M569 P0.0 S0                             ; physical drive 0.0 goes backwards
+M569 P0.0 S0 D3 V100                     ; physical drive 0.0 goes backwards
 M584 X0.5 Y0.6 Z0.0                      ; set drive mapping
 M350 X16 Y16 Z16 I1                      ; configure microstepping with interpolation
 M92 X69.48 Y69.48 Z1000.00               ; set steps per mm
@@ -33,10 +33,13 @@ M84 S30                                  ; Set idle timeout
 M208 X0 Y0 Z0 S1                         ; set axis minima
 M208 X1220 Y900 Z42 S0                   ; set axis maxima
 
+; Motor stall detection
+M915 Z S110 F1 H350 R0
+
 ; Endstops
 M574 X2 S1 P"^io1.in"                    ; configure switch-type (e.g. microswitch) endstop for high end on Y via pin ^io1.in
 M574 Y2 S1 P"^io2.in"                    ; configure switch-type (e.g. microswitch) endstop for high end on Y via pin ^io2.in
-M574 Z2 S1 P"!^io5.in"                   ; configure switch-type (e.g. microswitch) endstop for high end on Z via pin !^io5.in
+M574 Z2 S4                               ; use motor stall detection on high end for z-axis
 
 ; Z-Probe
 M950 S0 C"io3.out"                       ; create servo pin 0 for BLTouch
