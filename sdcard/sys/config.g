@@ -17,17 +17,17 @@ M586 P1 S0                               ; disable FTP
 M586 P2 S0                               ; disable Telnet
 
 ; Drives
-M569 P0.5 S1                             ; physical drive 0.5 goes forwards
-M569 P0.6 S1                             ; physical drive 0.6 goes forwards
-M569 P0.0 S0 D3 V100                     ; physical drive 0.0 goes backwards
-M584 X0.5 Y0.6 Z0.0                      ; set drive mapping
-M350 X16 Y16 Z16 I1                      ; configure microstepping with interpolation
-M92 X69.48 Y69.48 Z1000.00               ; set steps per mm
-M566 X720.00 Y480.00 Z60.00              ; set maximum instantaneous speed changes (mm/min)
-M203 X48000.00 Y28000.00 Z1800.00         ; set maximum speeds (mm/min)
-M201 X1600.00 Y800.00 Z60.00             ; set accelerations (mm/s^2)
-M906 X800 Y800 Z800 I30                  ; set motor currents (mA) and motor idle factor in per cent
-M84 S30                                  ; Set idle timeout
+M569 P0.5 S1                               ; physical drive 0.5 (X) goes forwards
+M569 P0.6 S1                               ; physical drive 0.6 (Y) goes forwards
+M569 P0.0 S0 D3 V100                       ; physical drive 0.0 (Z) goes backwards
+M584 X0.5 Y0.6 Z0.0                        ; set drive mapping
+M350 X16 Y16 Z16 I1                        ; configure microstepping with interpolation
+M92 X69.48 Y69.48 Z1000.00                 ; set steps per mm
+M566 X720.00 Y480.00 Z60.00                ; set maximum instantaneous speed changes (mm/min)
+M203 X48000.00 Y28000.00 Z1800.00          ; set maximum speeds (mm/min)
+M201 X1600.00 Y800.00 Z60.00               ; set accelerations (mm/s^2)
+M906 X800 Y800 Z800 I30                    ; set motor currents (mA) and motor idle factor in per cent
+M84 S30                                    ; set idle timeout
 
 ; Axis Limits
 M208 X0 Y0 Z0 S1                         ; set axis minima
