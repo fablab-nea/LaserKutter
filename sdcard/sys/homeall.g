@@ -8,7 +8,6 @@ G1 H1 X1225 Y905 F4800 ; move quickly to X and Y axis endstops and stop there (f
 G1 H2 X-2 Y-2 F6000    ; go back a few mm
 G1 H1 X1225 Y905 F360  ; move slowly to X and Y axis endstops once more (second pass)
 G90                    ; absolute positioning
-G92 Z42                ; set Z position to axis maximum (you may want to adjust this)
 
 ; Set job origin (slot 2)
 G92 X0 Y0
