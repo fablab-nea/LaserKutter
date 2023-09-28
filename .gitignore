@@ -2,3 +2,4 @@
 *.uf2
 *.FCStd1
 /sdcard/sys/accelerometer/*.csv
+*.bak
