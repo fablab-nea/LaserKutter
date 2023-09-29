@@ -87,3 +87,5 @@ M563 P1 S"Laserlinse 3mm" ; define tool
 G10 L1 P1 Z-11.75         ; set length of tool 1
 
 T1                        ; use tool 1
+
+global stopTime = null
