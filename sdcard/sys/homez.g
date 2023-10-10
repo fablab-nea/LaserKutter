@@ -5,5 +5,4 @@
 G91  		   ; relative positioning
 M913 Z66       ; reduce motor current
 G1 H1 Z47 F360 ; move Z up until the endstop is triggered
-G92 Z42        ; set Z position to axis maximum (you may want to adjust this)
 M913 Z100      ; set motor current to 100%
