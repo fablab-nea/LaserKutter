@@ -83,9 +83,9 @@ M569 P0.5 T5:5:10:0                      ; 5us minimum step pulse, 5us minimum s
 M569 P0.6 T5:5:10:0                      ; 5us minimum step pulse, 5us minimum step interval, 10us DIR setup time and no hold time
 
 ; Define tools
-M563 P1 S"Laserlinse 3mm" ; define tool
-G10 L1 P1 Z-11.75         ; set length of tool 1
+M563 P1 S"Laserlinse A oben" ; define tool
+G10 L1 P1 Z-13.65            ; set length of tool 1
 
-T1                        ; use tool 1
+T1                           ; use tool 1
 
 global stopTime = null
