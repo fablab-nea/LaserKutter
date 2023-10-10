@@ -1,1 +1,1 @@
-M98 "start.g"
+M98 P"start.g"
