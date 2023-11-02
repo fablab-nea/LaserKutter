@@ -49,10 +49,9 @@ M574 U1 S4                               ; use multiple motor stall detection on
 M597 U0 Z11
 
 ; Z-Probe
-M950 S0 C"io3.out"                       ; create servo pin 0 for BLTouch
-M558 P9 C"io3.in+io4.out" H10 F120 T6000 ; set Z probe type to bltouch and the dive height + speeds
-G31 P500 X0 Y0 Z2.5                      ; set Z probe trigger value, offset and trigger height
-M557 X15:215 Y15:195 S20                 ; define mesh grid
+M950 S0 C"io3.out"                        ; create servo pin 0 for BLTouch
+M558 P9 C"io3.in+io4.out" H42 F600 T48000 ; set Z probe type to bltouch and the dive height + speeds
+M557 X15:215 Y15:195 S20                  ; define mesh grid
 
 ; Accelerometer
 ; default SPI clock: 2MHz = 2000000
