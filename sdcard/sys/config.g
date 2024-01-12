@@ -81,6 +81,8 @@ M581 T15 P0 S0 R2                        ; Input 0 invokes trigger #15, only whi
 M569 P0.5 T5:5:10:0                      ; 5us minimum step pulse, 5us minimum step interval, 10us DIR setup time and no hold time
 M569 P0.6 T5:5:10:0                      ; 5us minimum step pulse, 5us minimum step interval, 10us DIR setup time and no hold time
 
+M595 P100 S83                            ; Set movement queue length
+
 ; Define tools
 M563 P1 S"Laserlinse A oben" ; define tool
 G10 L1 P1 Z-17.063           ; set length of tool 1
