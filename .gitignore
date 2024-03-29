@@ -2,5 +2,6 @@
 *.uf2
 *.FCStd1
 /sdcard/sys/accelerometer/*.csv
+/sdcard/sys/eventlog.txt
 /sdcard/sys/resurrect.g
 *.bak
