@@ -85,7 +85,7 @@ M595 P100 S83                            ; Set movement queue length
 
 ; Define tools
 M563 P1 S"Laserlinse A oben" ; define tool
-G10 L1 P1 Z-20.36            ; set length of tool 1
+G10 L1 P1 Z-15.26            ; set length of tool 1
 
 T1                           ; use tool 1
 
