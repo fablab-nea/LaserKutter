@@ -22,18 +22,20 @@ M569 P0.6 S1                               ; physical drive 0.6 (Y) goes forward
 M569 P0.0 S0 D3 V100                       ; physical drive 0.0 (Z) goes backwards
 M569 P0.1 S0 D3 V90                        ; physical drive 0.1 (U left) goes backwards
 M569 P0.2 S0 D3 V90                        ; physical drive 0.2 (U right) goes backwards
+M569 P0.3 S0 D3 V100                       ; physical drive 0.3 (A) goes backwards
 M584 X0.5 Y0.6 Z0.0 U0.1:0.2               ; set drive mapping
-M350 X16 Y16 Z16 U16 I1                    ; configure microstepping with interpolation
-M92 X69.48 Y69.48 Z800.00 U1280            ; set steps per mm
+M584 A0.3 R1
+M350 X16 Y16 Z16 U16 A16 I1                ; configure microstepping with interpolation
+M92 X69.48 Y69.48 Z800.00 U1280 A18        ; set steps per mm
 M566 X720.00 Y480.00 Z60.00 U30.00         ; set maximum instantaneous speed changes (mm/min)
-M203 X48000.00 Y28000.00 Z2250.00 U3000.00 ; set maximum speeds (mm/min)
-M201 X1600.00 Y800.00 Z60.00 U20.00        ; set accelerations (mm/s^2)
-M906 X800 Y800 Z800 I30 U3000              ; set motor currents (mA) and motor idle factor in per cent
+M203 X48000 Y28000 Z2250 U3000 A30000      ; set maximum speeds (mm/min)
+M201 X1600.00 Y800.00 Z60.00 U20.00 A200   ; set accelerations (mm/s^2)
+M906 X800 Y800 Z800 I30 U3000 A3000        ; set motor currents (mA) and motor idle factor in per cent
 M84 S30                                    ; set idle timeout
 
 ; Axis Limits
-M208 X0    Y0   Z0    U-280 S1             ; set axis minima
-M208 X1220 Y900 Z52.5 U0    S0             ; set axis maxima
+M208 X0    Y0   Z0    U-280 S1 A0          ; set axis minima
+M208 X1220 Y900 Z52.5 U0    S0 A360        ; set axis maxima
 
 ; Motor stall detection
 M915 Z S110 F1 H350 R0
